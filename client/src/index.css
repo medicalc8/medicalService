@@ -27,4 +27,28 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+  .footer {
+    background-color: black;
+    color: white;
+    width: 98%;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .aboutUs {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .contactUs {
+    margin-left: 45%;
+    height: 200px;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(54, 105, 163)
+  }

@@ -4,6 +4,7 @@ import Form from './form.jsx';
 import Login from './login.js'
 import Signin from "./signin.js";
 import {Route,BrowserRouter as Router,Switch,Link}from "react-router-dom";
+import Footer from "./footer.jsx";
 
 
 export default class App extends Component {
@@ -37,8 +38,9 @@ export default class App extends Component {
           <Route path="/form">
             <Form></Form>
           </Route>
+          <Footer/>
 
-        </Router>    
+        </Router>  
         </div>
     )
   }
