@@ -4,7 +4,7 @@ import Form from './form.jsx';
 import Login from './login.js'
 import Signin from "./signin.js";
 import {Route,BrowserRouter as Router,Switch,Link}from "react-router-dom";
-
+import logo from"./images/logo.png";
 
 export default class App extends Component {
   constructor(){
