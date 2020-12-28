@@ -6,6 +6,7 @@ import Signin from "./signin.js";
 import {Route,BrowserRouter as Router,Switch,Link}from "react-router-dom";
 import Footer from "./footer.jsx";
 
+import logo from"./images/logo.png";
 
 export default class App extends Component {
   constructor(){
