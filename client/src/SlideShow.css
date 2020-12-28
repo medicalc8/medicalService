@@ -1,0 +1,116 @@
+/* .slide-container, .each-slide {
+    position: relative;
+    left: 500px;
+    box-sizing: border-box;
+    width: 825px; 
+    margin-left: 50px;
+} */
+
+.ss {
+  position: center;
+  box-sizing: border-box;
+  height: 75vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.signin {
+  padding: 15px;
+  border-radius: 7px;
+  opacity: 0.8;
+  font-size: 30px;
+  position: relative;
+  top: 400px;
+  left: 48%;
+}
+.signin:hover {
+  background-color: rgb(49, 148, 206);
+  color: white;
+}
+
+.description {
+  font-size: 55px;
+  color: white;
+}
+.description2 {
+  font-size: 65px;
+  font-style: italic;
+  color: rgb(46, 172, 94);
+}
+.description3 {
+  font-size: 55px;
+  color: rgba(52, 167, 233, 0.959);
+}
+.description4 {
+  font-size: 55px;
+  color: black;
+}
+.s1 {
+  position: relative;
+  top: 500px;
+  left: 25px;
+}
+.s2 {
+  position: relative;
+  top: 300px;
+  left: 1060px;
+}
+.s3 {
+  position: relative;
+  top: 100px;
+  left: 1050px;
+}
+.s4 {
+  position: relative;
+  top: 500px;
+  left: 10px;
+}
+.container {
+  font-size: 22px;
+}
+.btn {
+  transition-duration: 0.4s;
+  background-color: #4caf50;
+  padding: 0.5em;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+/* input[type=checkbox] {
+    display: none;
+} */
+/* .checkbox label:before {
+    border-radius: 3px;
+}
+input[type=checkbox]:checked {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;
+} */
+.ks_checkbox_ci {
+  width: 18px;
+  height: 18px;
+  background: #fcfff4;
+  background: -webkit-linear-gradient(
+    top,
+    #fcfff4 0%,
+    #dfe5d7 40%,
+    #b3bead 100%
+  );
+  margin: 10px auto;
+  -webkit-border-radius: 65px;
+  -moz-border-radius: 65px;
+  border-radius: 65px;
+  -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
