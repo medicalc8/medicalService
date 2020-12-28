@@ -1,10 +1,12 @@
 import React from 'react';
+import Style from './App.css';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import img1 from './images/img1.jpg';
 import img2 from './images/img2.jpg';
 import img3 from './images/img3.jpg';
 import img5 from './images/img5.jpg';
+import Logo from './images/logo.png';
 import {Route,BrowserRouter as Router,Switch,Link}from "react-router-dom";
 
 import './SlideShow.css';
@@ -12,6 +14,7 @@ import './SlideShow.css';
 const slideImages = [
   img1,img2,img3,img5
 ];
+const logoHeader = Logo;
 const props = {
     duration: 3000,
     transitionDuration: 500,
@@ -21,8 +24,10 @@ const props = {
 
 const Slideshowa = () => {
     return (
+      
       <div className="slide-container">
-        <Link to="/login">
+        <img src={logoHeader} alt="logo"/>
+        <Link  to="/login">
         <h1>Login</h1>
         </Link>
         <Slide {...props}>
